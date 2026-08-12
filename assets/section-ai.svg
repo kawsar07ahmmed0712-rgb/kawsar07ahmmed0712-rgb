@@ -1,0 +1,17 @@
+<svg width="1200" height="126" viewBox="0 0 1200 126" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1200" y2="126">
+    <stop stop-color="#A855F7" stop-opacity=".16"/>
+    <stop offset=".55" stop-color="#FFFFFF"/>
+    <stop offset="1" stop-color="#38BDF8" stop-opacity=".18"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="126" rx="28" fill="url(#g)"/>
+<rect x="1" y="1" width="1198" height="124" rx="27" stroke="#E2E8F0" stroke-width="2"/>
+<circle cx="72" cy="63" r="34" fill="#FFFFFF" stroke="#A855F7" stroke-width="2"/>
+<text x="72" y="74" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="30">✦</text>
+<text x="126" y="56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="800" fill="#0F172A">AI Systems</text>
+<text x="126" y="84" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="500" fill="#64748B">Agentic AI and retrieval-augmented generation</text>
+<rect x="1005" y="51" width="126" height="24" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+<text x="1068" y="67" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.2" fill="#64748B">SELECTED WORK</text>
+</svg>

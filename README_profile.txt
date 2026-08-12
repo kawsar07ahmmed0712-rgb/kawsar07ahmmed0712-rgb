@@ -1,30 +1,34 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Kawsar Ahmmed — AI / Machine Learning Engineer" />
+<img src="./assets/hero.svg" width="100%" alt="Kawsar Ahmmed — AI / Machine Learning Engineer" />
 
 <br/>
 
-<a href="https://github.com/kawsar07ahmmed0712-rgb">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<img src="https://komarev.com/ghpvc/?username=kawsar07ahmmed0712-rgb&style=for-the-badge&label=PROFILE+VIEWS&color=7c3aed" alt="Profile views" />
+<a href="#featured-work"><b>PROJECTS</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#technical-stack"><b>STACK</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#engineering-method"><b>METHOD</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#github-activity"><b>ACTIVITY</b></a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#connect"><b>CONTACT</b></a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Machine_Learning-0F766E?style=flat-square" />
-<img src="https://img.shields.io/badge/Deep_Learning-4338CA?style=flat-square" />
-<img src="https://img.shields.io/badge/Agentic_AI-7E22CE?style=flat-square" />
-<img src="https://img.shields.io/badge/RAG-0369A1?style=flat-square" />
-<img src="https://img.shields.io/badge/Computer_Vision-C2410C?style=flat-square" />
-<img src="https://img.shields.io/badge/Data_Analytics-15803D?style=flat-square" />
+<a href="https://github.com/kawsar07ahmmed0712-rgb">
+<img src="https://img.shields.io/badge/GitHub-Profile-FFFFFF?style=for-the-badge&logo=github&logoColor=111827&labelColor=FFFFFF&color=E2E8F0" />
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=kawsar07ahmmed0712-rgb&style=for-the-badge&label=PROFILE+VIEWS&color=E9D5FF&labelColor=FFFFFF" />
 
 </div>
 
 <br/>
 
-## ⚡ Engineering Profile
+<img src="./assets/focus.svg" width="100%" alt="Current engineering focus" />
 
-AI / Machine Learning Engineer focused on **research-driven, end-to-end intelligent systems** — from data diagnostics and model experimentation to deep learning, retrieval pipelines, multi-agent systems, APIs, and deployable AI applications.
+<br/>
 
 <table>
 <tr>
@@ -32,18 +36,18 @@ AI / Machine Learning Engineer focused on **research-driven, end-to-end intellig
 
 ### 🤖 Agentic AI
 Multi-agent workflows  
-Agent orchestration  
-LLM tool use  
+LLM orchestration  
+Real-time interaction  
 Evaluation pipelines
 
 </td>
 <td width="25%" valign="top">
 
-### 🧠 LLM + RAG
+### 🔎 RAG / LLM
 Document retrieval  
 Vector search  
-Reranking  
-Grounded generation
+Context grounding  
+Model routing
 
 </td>
 <td width="25%" valign="top">
@@ -60,159 +64,142 @@ Error analysis
 ### 👁️ Deep Learning
 PyTorch  
 Computer vision  
-Neural networks  
-Image classification
+Image classification  
+Neural networks
 
 </td>
 </tr>
 </table>
 
----
+<br/>
 
-# 🚀 Featured Portfolio
+<a id="featured-work"></a>
 
-## 🟣 Agentic AI & RAG Systems
+<img src="./assets/section-ai.svg" width="100%" alt="AI Systems" />
+
+<br/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/kawsar07ahmmed0712-rgb/InterviX_Aura">
-<img src="./assets/intervix-aura.svg" width="100%" alt="InterviX Aura" />
+<img src="./assets/intervix.svg" width="100%" alt="InterviX Aura" />
 </a>
 </td>
-
 <td width="50%" valign="top">
 <a href="https://github.com/kawsar07ahmmed0712-rgb/End_to_End_Medical_Chatbot">
-<img src="./assets/vitalvox-rag.svg" width="100%" alt="VitalVox Medical RAG" />
+<img src="./assets/vitalvox.svg" width="100%" alt="VitalVox Medical RAG" />
 </a>
 </td>
 </tr>
 </table>
 
-### InterviX Aura
-`Agentic AI` · `AutoGen AgentChat` · `FastAPI` · `WebSocket` · `Gemini` · `Ollama`
+<br/>
 
-A multi-agent mock interview application built around **Interviewer, Candidate, and Evaluator** roles, with real-time WebSocket communication and support for both hosted and local LLM providers.
+<img src="./assets/section-ml.svg" width="100%" alt="Machine Learning Projects" />
 
-### VitalVox Medical RAG
-`RAG` · `LangChain` · `Pinecone` · `Flask` · `Gemini` · `Ollama`
-
-A medical retrieval-augmented generation application with **Pinecone-backed document retrieval, source previews, runtime health checks, and multi-model support**.
-
----
-
-## 🔵 Machine Learning Projects
+<br/>
 
 <a href="https://github.com/kawsar07ahmmed0712-rgb/moa-prediction-drug-response">
-<img src="./assets/moa-drug-response.svg" width="100%" alt="MOA Drug Response Prediction" />
+<img src="./assets/moa.svg" width="100%" alt="MOA Drug Response Prediction" />
 </a>
 
-<br/>
-
-### 🧬 Mechanisms of Action — Drug Response Prediction
-`Multi-label Classification` · `Gene Expression` · `Cell Viability` · `Feature Engineering` · `Ensemble Evaluation`
-
-A complete biomedical machine-learning workflow for predicting drug mechanisms of action using **gene-expression features, cell-viability features, treatment metadata, multi-label modelling, and ensemble evaluation**.
-
-<br/>
+<br/><br/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/kawsar07ahmmed0712-rgb/Ames-Price-Regression">
-<img src="./assets/ames-regression.svg" width="100%" alt="Ames Price Regression" />
+<img src="./assets/ames.svg" width="100%" alt="Ames Price Regression" />
 </a>
 </td>
-
 <td width="50%" valign="top">
 <a href="https://github.com/kawsar07ahmmed0712-rgb/Credit_Default_Risk">
-<img src="./assets/credit-risk.svg" width="100%" alt="Credit Default Risk" />
+<img src="./assets/credit.svg" width="100%" alt="Credit Default Risk" />
 </a>
 </td>
 </tr>
 </table>
 
-### 🏠 Ames Price Regression
-`Regression` · `Feature Engineering` · `Cross-Validation` · `CatBoost` · `SVR` · `Stacking`
+<br/>
 
-End-to-end regression work covering **missing-value semantics, engineered area/age features, skew handling, model comparison, cross-validation, and ensemble/stacking modelling**.
+<img src="./assets/section-dl.svg" width="100%" alt="Deep Learning Project" />
 
-### 💳 Credit Default Risk
-`Classification` · `Tabular ML` · `EDA` · `Risk Modelling`
-
-Applied tabular machine-learning project focused on **credit-default risk analysis and predictive modelling**.
-
----
-
-## 🟠 Deep Learning / Computer Vision
+<br/>
 
 <a href="https://github.com/kawsar07ahmmed0712-rgb/Pytorch-German-Traffic-Sign-Recognition">
-<img src="./assets/traffic-sign.svg" width="100%" alt="PyTorch German Traffic Sign Recognition" />
+<img src="./assets/traffic.svg" width="100%" alt="PyTorch German Traffic Sign Recognition" />
 </a>
 
-### 🚦 German Traffic Sign Recognition
-`PyTorch` · `Computer Vision` · `Image Classification` · `Deep Learning`
+<br/><br/>
 
-A PyTorch-based image-classification project for **German traffic-sign recognition**, organized with notebook experimentation and source-code components.
+<img src="./assets/section-data.svg" width="100%" alt="Data and Analytics" />
 
----
-
-## 🟢 Data Analysis & Dashboarding
+<br/>
 
 <a href="https://github.com/kawsar07ahmmed0712-rgb/Excel_Dashboard">
-<img src="./assets/excel-dashboard.svg" width="100%" alt="Excel Analytics Dashboard" />
+<img src="./assets/excel.svg" width="100%" alt="Excel Analytics Dashboard" />
 </a>
 
-### 📊 Excel Analytics Dashboard
-`Microsoft Excel` · `Dashboard` · `Data Analysis` · `Visual Reporting`
+<br/><br/>
 
-An Excel-based analytics project focused on **interactive dashboarding, business-style data exploration, and visual reporting**.
+<a id="technical-stack"></a>
 
----
+<img src="./assets/section-stack.svg" width="100%" alt="Technical Stack" />
 
-# 🧩 Technical Stack
+<br/>
 
 <div align="center">
 
 ### Languages
+<img src="https://skillicons.dev/icons?i=python,cpp,js&theme=light" alt="Languages" />
 
-<img src="https://skillicons.dev/icons?i=python,cpp,js&theme=dark" />
+<br/>
 
-### ML / Deep Learning
+### Machine Learning & Deep Learning
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=light" alt="ML Frameworks" />
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+<br/>
 
-<img src="https://img.shields.io/badge/XGBoost-2563EB?style=for-the-badge" />
-<img src="https://img.shields.io/badge/CatBoost-F59E0B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Transformers-FFF7CC?style=for-the-badge&logo=huggingface&logoColor=111827" />
+<img src="https://img.shields.io/badge/XGBoost-E0F2FE?style=for-the-badge&logoColor=111827" />
+<img src="https://img.shields.io/badge/CatBoost-FFEDD5?style=for-the-badge&logoColor=111827" />
+<img src="https://img.shields.io/badge/Pandas-EDE9FE?style=for-the-badge&logo=pandas&logoColor=4338CA" />
+<img src="https://img.shields.io/badge/NumPy-DBEAFE?style=for-the-badge&logo=numpy&logoColor=1D4ED8" />
 
-### LLM / Agentic AI / RAG
+<br/><br/>
 
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
-<img src="https://img.shields.io/badge/AutoGen-7C3AED?style=for-the-badge" />
-<img src="https://img.shields.io/badge/RAG-0369A1?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
-<img src="https://img.shields.io/badge/Ollama-111827?style=for-the-badge&logo=ollama&logoColor=white" />
-<img src="https://img.shields.io/badge/Pinecone-00A67E?style=for-the-badge" />
+### LLM Systems / Agentic AI / RAG
 
-### Backend / Engineering / Data
+<img src="https://img.shields.io/badge/LangChain-ECFDF5?style=for-the-badge&logo=langchain&logoColor=065F46" />
+<img src="https://img.shields.io/badge/AutoGen-F3E8FF?style=for-the-badge&logoColor=7E22CE" />
+<img src="https://img.shields.io/badge/Pinecone-E0F2FE?style=for-the-badge&logoColor=0369A1" />
+<img src="https://img.shields.io/badge/Gemini-EEF2FF?style=for-the-badge&logo=googlegemini&logoColor=4F46E5" />
+<img src="https://img.shields.io/badge/Ollama-F8FAFC?style=for-the-badge&logo=ollama&logoColor=111827" />
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,linux,postgres,mysql,mongodb,redis&theme=dark" />
+<br/><br/>
 
-<img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+### Backend / Data / Engineering
+<img src="https://skillicons.dev/icons?i=fastapi,flask,docker,git,github,linux,postgres,mysql,mongodb,redis&theme=light" alt="Engineering Stack" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Microsoft_Excel-DCFCE7?style=for-the-badge&logo=microsoftexcel&logoColor=15803D" />
+<img src="https://img.shields.io/badge/Jupyter-FFEDD5?style=for-the-badge&logo=jupyter&logoColor=C2410C" />
 
 </div>
 
----
+<br/><br/>
 
-# 🧪 Engineering Approach
+<a id="engineering-method"></a>
+
+<img src="./assets/section-method.svg" width="100%" alt="Engineering Method" />
+
+<br/>
 
 <div align="center">
 
-`PROBLEM` → `DATA` → `DIAGNOSTICS` → `BASELINE` → `FEATURES` → `VALIDATION` → `ERROR ANALYSIS` → `SYSTEM`
+### `PROBLEM` → `DATA` → `DIAGNOSTICS` → `BASELINE` → `FEATURES` → `VALIDATION` → `ERROR ANALYSIS` → `SYSTEM`
 
 </div>
 
@@ -249,44 +236,50 @@ Deployment thinking
 </tr>
 </table>
 
----
+<br/>
 
-# 📈 GitHub Activity
+<a id="github-activity"></a>
+
+<img src="./assets/section-activity.svg" width="100%" alt="GitHub Activity" />
+
+<br/>
 
 <div align="center">
 
 <img
-src="https://github-readme-activity-graph.vercel.app/graph?username=kawsar07ahmmed0712-rgb&theme=react-dark&hide_border=true&area=true&radius=12"
+src="https://github-readme-activity-graph.vercel.app/graph?username=kawsar07ahmmed0712-rgb&bg_color=ffffff&color=475569&line=6366f1&point=ec4899&area=true&area_color=e0e7ff&hide_border=true&radius=16"
 width="98%"
 alt="GitHub activity graph"
 />
 
 </div>
 
----
+<br/><br/>
 
-# 🌐 Connect
+<a id="connect"></a>
+
+<img src="./assets/section-connect.svg" width="100%" alt="Connect" />
+
+<br/>
 
 <div align="center">
 
-<!-- Replace these placeholders -->
+<!-- Replace the placeholders below -->
 
 <a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<img src="https://img.shields.io/badge/LinkedIn-CONNECT-DBEAFE?style=for-the-badge&logo=linkedin&logoColor=1D4ED8" />
 </a>
 
 <a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+<img src="https://img.shields.io/badge/Email-CONTACT-FCE7F3?style=for-the-badge&logo=gmail&logoColor=BE185D" />
 </a>
 
 <a href="YOUR_PORTFOLIO_URL">
-<img src="https://img.shields.io/badge/Portfolio-VISIT-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Portfolio-VISIT-EDE9FE?style=for-the-badge&logo=vercel&logoColor=6D28D9" />
 </a>
 
-<br/><br/>
-
-<sub>
-Machine Learning • Deep Learning • Agentic AI • RAG • Computer Vision • Data Analytics
-</sub>
-
 </div>
+
+<br/>
+
+<img src="./assets/footer.svg" width="100%" alt="Kawsar Ahmmed footer" />
