@@ -1,142 +1,78 @@
+<!--
+  Kawsar Ahmmed — GitHub Profile README
+  Design goal: recruiter-first, modern, visual, and technically credible.
+  Replace/add LinkedIn, email, portfolio, and resume links when ready.
+-->
+
 <div align="center">
 
-# Kawsar Ahmmed
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:0EA5E9,100:7C3AED&height=235&section=header&text=Kawsar%20Ahmmed&fontSize=48&fontColor=FFFFFF&fontAlignY=37&desc=AI%20%2F%20Machine%20Learning%20Engineer&descSize=19&descAlignY=58&animation=fadeIn" alt="Kawsar Ahmmed header" />
 
-### AI / Machine Learning Engineer
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2700&pause=850&color=38BDF8&center=true&vCenter=true&width=780&lines=Machine+Learning+%E2%80%A2+Deep+Learning+%E2%80%A2+Computer+Vision;Agentic+AI+%E2%80%A2+RAG+%E2%80%A2+LLM+Applications;Validation-first+experimentation+%E2%80%A2+End-to-end+systems" alt="Typing SVG" />
+</a>
 
-**Machine Learning · Deep Learning · Agentic AI · RAG · Computer Vision · Data Analytics**
+<br/>
 
-Research-driven AI engineering with a focus on **experimentation, reliable evaluation, and end-to-end system building**.
+<a href="https://github.com/kawsar07ahmmed0712-rgb">
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<!--
+Add these when your URLs are ready:
+<a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="YOUR_RESUME_URL"><img src="https://img.shields.io/badge/Resume-0F766E?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume" /></a>
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+-->
 
-[Profile](#profile) · [Projects](#selected-work) · [Expertise](#technical-expertise) · [Workflow](#engineering-workflow) · [Focus](#current-focus) · [Contact](#contact)
+<br/><br/>
+
+<a href="#engineering-profile">Engineering Profile</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#featured-engineering">Featured Engineering</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#technology-stack">Technology Stack</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#engineering-workflow">Workflow</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="#more-selected-work">More Work</a>
 
 </div>
 
 ---
 
-## Profile
+## Engineering Profile
 
-> [!NOTE]
-> I work across **classical machine learning, deep learning, computer vision, agentic AI, and retrieval-augmented generation**.  
-> My goal is not just to train models, but to understand the data, validate decisions properly, and turn successful experiments into usable systems.
+I build **machine learning and AI systems end to end** — from data understanding and experimental baselines to evaluation, model integration, APIs, retrieval pipelines, and usable applications.
 
-### Engineering Principles
-
-| Focus | How I approach it |
-|---|---|
-| **Research** | Strong baselines, structured experiments, feature and model comparison |
-| **Evaluation** | Cross-validation, leakage awareness, error analysis, reliable metrics |
-| **Engineering** | Reproducible pipelines, modular code, APIs, and practical applications |
-
-> **Core workflow**  
-> `Problem` → `Data` → `Baseline` → `Experiment` → `Validate` → `Analyze` → `Engineer`
-
----
-
-# Selected Work
-
-## ◆ Machine Learning
+My work spans **classical ML, deep learning, computer vision, agentic AI, and retrieval-augmented generation**. I prefer evidence over unnecessary complexity: establish a strong baseline, validate correctly, inspect failure modes, then engineer the parts that actually improve the system.
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-### 01 · Mechanisms of Action — Drug Response Prediction
+### Applied Machine Learning
 
-**Biomedical Multi-Label Machine Learning**
+Tabular modelling, biomedical ML, feature engineering, model comparison, cross-validation, ensemble evaluation, and leakage-aware experimentation.
 
-A complete machine learning workflow for predicting drug **Mechanisms of Action (MoA)** using gene-expression features, cell-viability features, treatment metadata, feature engineering, multi-label modelling, and ensemble evaluation.
+</td>
+<td width="50%" valign="top">
 
-**Focus**  
-`Multi-Label Classification` · `Biomedical ML` · `Feature Engineering` · `Ensemble Evaluation`
+### Agentic AI & RAG
 
-**Project highlights**
-- Integrated gene-expression, cell-viability, and treatment-related features
-- Structured the workflow around EDA, feature engineering, modelling, and evaluation
-- Organized the repository into data, notebooks, source code, models, outputs, and reports
-
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/moa-prediction-drug-response)
-
-<details>
-<summary><strong>Technical scope</strong></summary>
-
-<br/>
-
-- Data integration
-- Exploratory data analysis
-- Feature engineering
-- Multi-label model training
-- Ensemble-oriented final evaluation
-- Separate `src/`, `models/`, `outputs/`, and `reports/` components
-
-</details>
+Multi-agent workflows, retrieval pipelines, vector search, grounded generation, model orchestration, and LLM-backed applications.
 
 </td>
 </tr>
-</table>
-
-<br/>
-
-<table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-### 02 · Ames House Price Regression
+### Deep Learning & Vision
 
-**Advanced Regression & Feature Engineering**
-
-An end-to-end supervised regression project for predicting house sale prices from the **Ames Housing** dataset, with emphasis on preprocessing, feature construction, cross-validation, model comparison, and ensemble modelling.
-
-**Focus**  
-`Regression` · `Cross-Validation` · `Feature Engineering` · `CatBoost` · `SVR` · `Stacking`
-
-**Project highlights**
-- Meaning-aware missing-value handling and outlier analysis
-- Engineered area, bathroom, age, remodeling, and presence-indicator features
-- Compared multiple linear, kernel, boosting, and ensemble approaches
-- Used cross-validation with RMSE / log-RMSE evaluation
-
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/Ames-Price-Regression)
-
-<details>
-<summary><strong>Technical scope</strong></summary>
-
-<br/>
-
-Selected engineered features include:
-
-`TotalSF` · `TotalBathrooms` · `HouseAge` · `RemodAge` · `GarageAge` · `TotalPorchSF`
-
-The repository separates exploratory work, feature engineering, model training, research notes, deployment artifacts, and tests.
-
-</details>
+PyTorch/TensorFlow experimentation, image classification, representation learning workflows, and model evaluation for visual tasks.
 
 </td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
-<br/>
+### AI Engineering
 
-<table>
-<tr>
-<td>
-
-### 03 · Credit Default Risk
-
-**Tabular Classification & Risk Modelling**
-
-A machine learning project focused on analysing and modelling **credit default risk** from structured tabular data.
-
-**Focus**  
-`Classification` · `Tabular ML` · `EDA` · `Risk Modelling`
-
-**Project highlights**
-- Exploratory analysis of structured credit-risk data
-- Data preprocessing and feature-level investigation
-- Classification-oriented model development
-- Notebook-based experimentation with supporting analysis reports
-
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/Credit_Default_Risk)
+FastAPI/Flask services, WebSocket applications, modular pipelines, Docker/Linux workflows, reproducible repositories, and system integration.
 
 </td>
 </tr>
@@ -144,209 +80,111 @@ A machine learning project focused on analysing and modelling **credit default r
 
 ---
 
-## ◉ Deep Learning
+## Featured Engineering
+
+> Four projects that best represent how I work across **ML research, AI systems, RAG, deep learning, and application engineering**.
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-### German Traffic Sign Recognition
-
-**PyTorch Computer Vision / Image Classification**
-
-A deep learning project for **German traffic-sign recognition**, structured with dedicated notebook and source-code components.
-
-**Focus**  
-`PyTorch` · `Computer Vision` · `Deep Learning` · `Image Classification`
-
-**Project highlights**
-- Image preprocessing and classification workflow
-- PyTorch-based experimentation
-- Separation between exploratory notebooks and reusable source code
-- Model-training and evaluation workflow for visual recognition
-
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/Pytorch-German-Traffic-Sign-Recognition)
-
-</td>
-</tr>
-</table>
-
----
-
-## ⬡ Agentic AI
-
-<table>
-<tr>
-<td>
-
-### InterviX Aura
+### 01 / InterviX Aura
 
 **Multi-Agent AI Interview System**
 
-A mock-interview application built with **FastAPI, WebSocket, and AutoGen AgentChat**, using three coordinated AI roles: **Interviewer, Candidate, and Evaluator**.
+A browser-based mock-interview system built around coordinated **Interviewer, Candidate, and Evaluator agents**, with real-time communication between the client and backend.
 
-**Focus**  
-`AutoGen AgentChat` · `FastAPI` · `WebSocket` · `Gemini` · `Ollama`
+**System flow**  
+`Browser` → `WebSocket` → `FastAPI` → `AutoGen Agent Team` → `Evaluator Feedback`
 
-**Project highlights**
-- Role-specific multi-agent interview workflow
-- Real-time browser communication through WebSocket
-- Feedback generated by a dedicated evaluator agent
-- Support for hosted and local LLM providers
-- Separate model-client, agent-team, UI, and testing components
+**Engineering focus**
+- Role-specific multi-agent orchestration
+- Real-time WebSocket interaction
+- Dedicated evaluator-agent feedback loop
+- Hosted and local model support
+- Separation of model clients, agent logic, UI, and tests
 
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/InterviX_Aura)
+`AutoGen AgentChat` `FastAPI` `WebSocket` `Gemini` `Ollama`
 
-<details>
-<summary><strong>System structure</strong></summary>
-
-<br/>
-
-- `app.py` — FastAPI application and WebSocket endpoint
-- `interview_team.py` — AutoGen agents and team logic
-- `llm_clients.py` — Gemini / Ollama model clients
-- `templates/` and `static/` — browser interface
-- `tests/` — application tests
-
-</details>
+<a href="https://github.com/kawsar07ahmmed0712-rgb/InterviX_Aura">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="InterviX Aura repository" />
+</a>
 
 </td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
----
-
-## ▣ Data Analysis
-
-<table>
-<tr>
-<td>
-
-### Excel Analytics Dashboard
-
-**Spreadsheet Analytics & Visual Reporting**
-
-An Excel-based data-analysis project centered on turning structured data into an interactive dashboard and business-style reporting experience.
-
-**Focus**  
-`Microsoft Excel` · `Dashboarding` · `Data Analysis` · `Visual Reporting`
-
-**Project highlights**
-- Spreadsheet-based analytical workflow
-- Dashboard-oriented reporting
-- Interactive data exploration
-- Business-facing presentation of structured information
-
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/Excel_Dashboard)
-
-</td>
-</tr>
-</table>
-
----
-
-## ◇ RAG & LLM Systems
-
-<table>
-<tr>
-<td>
-
-### VitalVox Medical RAG
+### 02 / VitalVox Medical RAG
 
 **Retrieval-Augmented Medical Assistant**
 
-A Flask-based medical RAG application with **Pinecone-backed document retrieval**, Gemini and Ollama model support, source previews, and runtime health checks.
+A Flask-based RAG application that converts medical PDFs into retrievable knowledge and uses source-grounded context to support LLM responses.
 
-**Focus**  
-`LangChain` · `Pinecone` · `Flask` · `Gemini` · `Ollama` · `RAG`
+**RAG flow**  
+`PDFs` → `Chunking` → `Embeddings` → `Pinecone` → `Retrieved Context` → `LLM Response`
 
-**Project highlights**
+**Engineering focus**
 - PDF ingestion and chunking pipeline
-- Pinecone vector indexing and retrieval
-- Source-grounded response workflow
-- Gemini and optional local Ollama model support
-- Multipage web UI with chat workspace and source previews
+- Pinecone-backed vector retrieval
+- Source-grounded generation workflow
+- Gemini + optional local Ollama support
+- Multipage UI with source previews and runtime checks
 
-[**Explore repository →**](https://github.com/kawsar07ahmmed0712-rgb/End_to_End_Medical_Chatbot)
+`LangChain` `Pinecone` `Flask` `Gemini` `Ollama` `RAG`
 
-<details>
-<summary><strong>RAG pipeline</strong></summary>
-
-<br/>
-
-`Medical PDFs` → `Chunking` → `Embeddings` → `Pinecone Index` → `Relevant Context` → `LLM Response`
-
-The application separates ingestion/indexing from runtime retrieval and generation, and supports both hosted and local model configurations.
-
-</details>
+<a href="https://github.com/kawsar07ahmmed0712-rgb/End_to_End_Medical_Chatbot">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="VitalVox Medical RAG repository" />
+</a>
 
 </td>
 </tr>
-</table>
-
----
-
-# Technical Expertise
-
-### ◆ Machine Learning & Data
-`Python` · `Scikit-learn` · `XGBoost` · `CatBoost` · `Pandas` · `NumPy`
-
-### ◉ Deep Learning & NLP
-`PyTorch` · `TensorFlow` · `Transformers`
-
-### ⬡ LLM / Agentic AI / RAG
-`LangChain` · `AutoGen` · `Pinecone` · `Gemini` · `Ollama`
-
-### ◇ Backend & Applications
-`FastAPI` · `Flask` · `REST APIs` · `WebSocket`
-
-### ▣ Analytics & Workflow
-`Jupyter Notebook` · `Microsoft Excel` · `SQL`
-
-### ⌘ Engineering
-`Git` · `GitHub` · `Docker` · `Linux`
-
----
-
-# Engineering Workflow
-
-> [!TIP]
-> I prefer to increase complexity only when experiments justify it.
-
-| Step | Objective |
-|---|---|
-| **01 · Understand** | Define the objective, target, constraints, and evaluation metric |
-| **02 · Diagnose** | Inspect distributions, missing values, feature behaviour, class balance, and potential leakage |
-| **03 · Baseline** | Build a simple, strong reference model before adding complexity |
-| **04 · Experiment** | Improve features, representations, models, retrieval, or orchestration in controlled iterations |
-| **05 · Validate** | Use appropriate validation strategies instead of relying on a single convenient split |
-| **06 · Analyze** | Inspect failure cases, unstable behaviour, weak features, and model blind spots |
-| **07 · Engineer** | Convert successful experiments into reproducible pipelines, APIs, or complete applications |
-
----
-
-# Current Focus
-
-<table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### Research & Modelling
-- Advanced machine learning
-- Model evaluation
-- Deep learning
-- Computer vision
-- Error analysis
+### 03 / Mechanisms of Action
+
+**Biomedical Multi-Label Machine Learning**
+
+An end-to-end ML workflow for predicting drug **Mechanisms of Action** from gene-expression features, cell-viability signals, and treatment metadata.
+
+**ML flow**  
+`Omics Features` → `EDA` → `Feature Engineering` → `Multi-Label Models` → `Ensemble Evaluation`
+
+**Engineering focus**
+- Multi-source biomedical feature integration
+- Structured experimentation and EDA
+- Feature engineering for high-dimensional data
+- Multi-label modelling workflow
+- Repository separation across data, notebooks, source, models, outputs, and reports
+
+`Multi-Label Classification` `Biomedical ML` `Feature Engineering` `Ensembles`
+
+<a href="https://github.com/kawsar07ahmmed0712-rgb/moa-prediction-drug-response">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="Mechanisms of Action repository" />
+</a>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### AI Systems
-- Agentic AI
-- Multi-agent systems
-- Retrieval-Augmented Generation
-- Hybrid retrieval and reranking
-- Grounded LLM applications
+### 04 / German Traffic Sign Recognition
+
+**PyTorch Computer Vision / Image Classification**
+
+A deep-learning image-classification project organized around a reproducible visual-recognition workflow with dedicated notebook and reusable source-code components.
+
+**Vision flow**  
+`Images` → `Preprocessing` → `PyTorch Training` → `Evaluation` → `Inference Workflow`
+
+**Engineering focus**
+- Image preprocessing pipeline
+- PyTorch-based model experimentation
+- Separation of exploratory notebooks and reusable code
+- Training and evaluation workflow for visual recognition
+
+`PyTorch` `Computer Vision` `Deep Learning` `Image Classification`
+
+<a href="https://github.com/kawsar07ahmmed0712-rgb/Pytorch-German-Traffic-Sign-Recognition">
+  <img src="https://img.shields.io/badge/VIEW_REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="German Traffic Sign Recognition repository" />
+</a>
 
 </td>
 </tr>
@@ -354,33 +192,170 @@ The application separates ingestion/indexing from runtime retrieval and generati
 
 ---
 
-# Project Index
-
-| Project | Domain | Repository |
-|---|---|---|
-| **Mechanisms of Action — Drug Response** | Machine Learning | [Open →](https://github.com/kawsar07ahmmed0712-rgb/moa-prediction-drug-response) |
-| **Ames House Price Regression** | Machine Learning | [Open →](https://github.com/kawsar07ahmmed0712-rgb/Ames-Price-Regression) |
-| **Credit Default Risk** | Machine Learning | [Open →](https://github.com/kawsar07ahmmed0712-rgb/Credit_Default_Risk) |
-| **German Traffic Sign Recognition** | Deep Learning / CV | [Open →](https://github.com/kawsar07ahmmed0712-rgb/Pytorch-German-Traffic-Sign-Recognition) |
-| **InterviX Aura** | Agentic AI | [Open →](https://github.com/kawsar07ahmmed0712-rgb/InterviX_Aura) |
-| **Excel Analytics Dashboard** | Data Analysis | [Open →](https://github.com/kawsar07ahmmed0712-rgb/Excel_Dashboard) |
-| **VitalVox Medical RAG** | RAG / LLM | [Open →](https://github.com/kawsar07ahmmed0712-rgb/End_to_End_Medical_Chatbot) |
-
----
-
-# Contact
-
-**GitHub** — [kawsar07ahmmed0712-rgb](https://github.com/kawsar07ahmmed0712-rgb)  
-**LinkedIn** — `Add your LinkedIn URL`  
-**Email** — `Add your email`  
-**Portfolio** — `Add your portfolio URL`
-
----
+## Technology Stack
 
 <div align="center">
 
-### Build carefully · Validate properly · Engineer systems that work
+### Core Engineering
 
-<sub>Machine Learning · Deep Learning · Agentic AI · RAG · Computer Vision · Data Analytics</sub>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,docker,git,github,linux,bash,vscode,anaconda&perline=12" alt="Core engineering stack" />
+</a>
+
+<br/><br/>
+
+### ML / Data
+
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/XGBoost-1F5A96?style=flat-square" alt="XGBoost" />
+<img src="https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square&logoColor=black" alt="CatBoost" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+<img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+
+### Agentic AI / RAG / LLM
+
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/AutoGen-2563EB?style=flat-square&logo=microsoft&logoColor=white" alt="AutoGen" />
+<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white" alt="Pinecone" />
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+<img src="https://img.shields.io/badge/RAG-0F766E?style=flat-square" alt="RAG" />
+<img src="https://img.shields.io/badge/Vector%20Search-7C3AED?style=flat-square" alt="Vector Search" />
+
+### Backend / Systems
+
+<img src="https://img.shields.io/badge/REST%20APIs-0EA5E9?style=flat-square" alt="REST APIs" />
+<img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSocket" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 
 </div>
+
+---
+
+## Engineering Workflow
+
+```mermaid
+flowchart LR
+    A[Problem & Metric] --> B[Data Diagnostics]
+    B --> C[Strong Baseline]
+    C --> D[Controlled Experiments]
+    D --> E[Leakage-safe Validation]
+    E --> F[Error Analysis]
+    F --> G[Pipeline / API / App]
+    G --> H[Iterate with Evidence]
+```
+
+<table>
+<tr>
+<td width="25%" align="center"><b>01</b><br/><sub>Understand the target, constraints, and metric.</sub></td>
+<td width="25%" align="center"><b>02</b><br/><sub>Inspect data quality, distributions, and leakage risk.</sub></td>
+<td width="25%" align="center"><b>03</b><br/><sub>Build a strong reference before adding complexity.</sub></td>
+<td width="25%" align="center"><b>04</b><br/><sub>Change one meaningful thing at a time.</sub></td>
+</tr>
+<tr>
+<td width="25%" align="center"><b>05</b><br/><sub>Validate with a split strategy that matches the problem.</sub></td>
+<td width="25%" align="center"><b>06</b><br/><sub>Study errors, weak cases, and unstable behavior.</sub></td>
+<td width="25%" align="center"><b>07</b><br/><sub>Turn successful experiments into reusable systems.</sub></td>
+<td width="25%" align="center"><b>08</b><br/><sub>Iterate only when evidence justifies it.</sub></td>
+</tr>
+</table>
+
+---
+
+## More Selected Work
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Ames Price Regression
+
+Advanced supervised regression with meaning-aware preprocessing, feature construction, cross-validation, model comparison, and ensemble modelling.
+
+`Regression` `CatBoost` `SVR` `Stacking`
+
+[Open repository →](https://github.com/kawsar07ahmmed0712-rgb/Ames-Price-Regression)
+
+</td>
+<td width="33%" valign="top">
+
+### Credit Default Risk
+
+Tabular classification project focused on structured credit-risk analysis, preprocessing, feature investigation, and predictive modelling.
+
+`Classification` `Tabular ML` `EDA` `Risk Modelling`
+
+[Open repository →](https://github.com/kawsar07ahmmed0712-rgb/Credit_Default_Risk)
+
+</td>
+<td width="33%" valign="top">
+
+### Excel Analytics Dashboard
+
+Spreadsheet analytics project for transforming structured data into an interactive dashboard and business-facing reporting workflow.
+
+`Excel` `Dashboarding` `Analytics` `Reporting`
+
+[Open repository →](https://github.com/kawsar07ahmmed0712-rgb/Excel_Dashboard)
+
+</td>
+</tr>
+</table>
+
+---
+
+## GitHub Pulse
+
+<details>
+<summary><b>Open contribution activity</b></summary>
+<br/>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kawsar07ahmmed0712-rgb&theme=tokyo-night&hide_border=true&area=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=kawsar07ahmmed0712-rgb&theme=github-compact&hide_border=true&area=true" />
+  <img alt="Kawsar Ahmmed contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=kawsar07ahmmed0712-rgb&theme=github-compact&hide_border=true&area=true" />
+</picture>
+
+</div>
+
+</details>
+
+<!--
+OPTIONAL CONTRIBUTION SNAKE
+1. Add the companion .github/workflows/snake.yml file provided with this README.
+2. Run the workflow once from GitHub Actions.
+3. Uncomment this block.
+
+## Contribution Trail
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kawsar07ahmmed0712-rgb/kawsar07ahmmed0712-rgb/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kawsar07ahmmed0712-rgb/kawsar07ahmmed0712-rgb/output/github-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/kawsar07ahmmed0712-rgb/kawsar07ahmmed0712-rgb/output/github-snake.svg" />
+</picture>
+-->
+
+---
+
+## Contact
+
+<div align="center">
+
+**Interested in AI engineering, applied ML, RAG systems, agentic workflows, and computer vision.**
+
+<a href="https://github.com/kawsar07ahmmed0712-rgb">
+  <img src="https://img.shields.io/badge/GitHub-kawsar07ahmmed0712--rgb-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" />
+</a>
+
+<!-- Add LinkedIn / Email / Portfolio / Resume buttons here when ready. -->
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,55:0EA5E9,100:0F172A&height=120&section=footer" alt="footer" />
