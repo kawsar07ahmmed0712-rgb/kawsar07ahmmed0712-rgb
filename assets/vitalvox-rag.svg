@@ -1,0 +1,25 @@
+<svg width="560" height="255" viewBox="0 0 560 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="edge" x1="0" y1="0" x2="560" y2="255"><stop stop-color="#06B6D4"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+      <radialGradient id="glow"><stop stop-color="#06B6D4" stop-opacity=".22"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+      <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+    </defs>
+    <rect width="560" height="255" rx="22" fill="#070B14"/>
+    <rect x=".75" y=".75" width="558.5" height="253.5" rx="21.25" stroke="url(#edge)" stroke-opacity=".75" stroke-width="1.5"/>
+    <ellipse cx="490" cy="30" rx="155" ry="112" fill="url(#glow)" filter="url(#blur)"/>
+    <rect x="26" y="24" width="94" height="28" rx="14" fill="#0F172A" stroke="#06B6D4" stroke-opacity=".48"/>
+    <circle cx="42" cy="38" r="4" fill="#06B6D4"/>
+    <text x="54" y="42" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.25" fill="#CBD5E1">RAG / LLM</text>
+    <text x="28" y="92" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" fill="#F8FAFC">VitalVox Medical RAG</text>
+    <rect x="28" y="105" width="76" height="3" rx="1.5" fill="url(#edge)"/>
+    <text x="28" y="143" font-family="Arial,Helvetica,sans-serif" font-size="13.5" font-weight="600" fill="#CBD5E1">Source-grounded medical assistant</text>
+    <text x="28" y="166" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#94A3B8">Retrieval, model routing &amp; source previews</text>
+    
+        <g opacity=".58" transform="translate(448 42)">
+          <rect x="0" y="4" width="46" height="58" rx="7" fill="none" stroke="#06B6D4" stroke-width="2"/>
+          <path d="M9 19H37M9 30H32M9 41H37" stroke="#10B981" stroke-width="2"/>
+          <circle cx="52" cy="58" r="20" fill="#07161A" stroke="#06B6D4" stroke-width="2"/>
+          <path d="M66 72L80 86" stroke="#10B981" stroke-width="4" stroke-linecap="round"/>
+        </g>
+    <rect x="36" y="205" width="83" height="26" rx="13" fill="#0B1220" stroke="#06B6D4" stroke-opacity=".42"/><text x="77.4" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#CBD5E1">LangChain</text><rect x="127" y="205" width="76" height="26" rx="13" fill="#0B1220" stroke="#06B6D4" stroke-opacity=".42"/><text x="164.6" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#CBD5E1">Pinecone</text><rect x="210" y="205" width="54" height="26" rx="13" fill="#0B1220" stroke="#06B6D4" stroke-opacity=".42"/><text x="237.4" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#CBD5E1">Flask</text><rect x="272" y="205" width="61" height="26" rx="13" fill="#0B1220" stroke="#06B6D4" stroke-opacity=".42"/><text x="303.0" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#CBD5E1">Gemini</text><rect x="342" y="205" width="61" height="26" rx="13" fill="#0B1220" stroke="#06B6D4" stroke-opacity=".42"/><text x="372.2" y="222" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="700" fill="#CBD5E1">Ollama</text>
+    </svg>
